@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4888e9;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: box-shadow 0.3s;
+}
+
+/* Aplicar sombra quando o mouse passa sobre um item do menu */
+nav a:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-buttons {
+    margin-bottom: 20px;
+}
+
+.contact-button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-button img {
+    color: blue;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#minhafoto {
+    width: 190px;
+    border-radius: 10px;
+    height: 120px;
+    margin-top: 10px;
+}
+
+
+.footer-links a {
+    color: #fff; /* Cor do texto padrão */
+    text-decoration: none; /* Remove a decoração de texto padrão (sublinhado) */
+    margin: 0 10px; /* Margem horizontal de 10px em cada lado dos links */
+}
+
+.footer-links a:hover {
+    color: #ff9900; /* Altera a cor do texto ao passar o mouse (por exemplo, para laranja) */
+}
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease; /* Adiciona uma transição suave para a mudança de cor */
+}
+
+.footer-links a:hover {
+    color: #ff9900;
+}
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: Arial, sans-serif; /* Altera a fonte do texto */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+}
+.icon-personalizado {
+    width: 16px; /* Defina a largura desejada para o ícone */
+    height: 16px; /* Defina a altura desejada para o ícone */
+    background-image: url('../img/codigo-html.png'); /* URL da sua imagem personalizada */
+    background-size: cover; /* Para ajustar a imagem ao tamanho do ícone */
+    display: inline-block; /* Para garantir que o ícone seja exibido inline */
+  }
+  
+/* Estilos para telas menores (por exemplo, dispositivos móveis) */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    nav ul {
+        text-align: left;
+    }
+
+    #contato {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #minhafoto {
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
+    }
+
+    .contact-button {
+        margin: 5px 0;
+        padding: 8px 16px;
+    }
+}
+
+/* Estilos para telas médias (por exemplo, tablets) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Adicione estilos específicos para telas médias aqui */
+}
+
+/* Estilos para telas maiores (por exemplo, desktops) */
+@media screen and (min-width: 1025px) {
+    /* Adicione estilos específicos para telas maiores aqui */
+}
+
+/* Estilos para quando a tela está em modo paisagem (horizontal) */
+@media screen and (max-width: 768px) and (orientation: landscape) {
+    /* Adicione estilos específicos para telas em modo paisagem aqui */
+}
+
+/* Estilos para #contato */
+#contato {
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contato h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contato p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#contato a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#contato a:hover {
+    color: #0056b3;
+}
+
+.icon-personalizado {
+    width: 16px; /* Defina a largura desejada para o ícone */
+    height: 16px; /* Defina a altura desejada para o ícone */
+    background-image: url('../img/codigo-html.png'); /* URL da sua imagem personalizada */
+    background-size: cover; /* Para ajustar a imagem ao tamanho do ícone */
+    display: inline-block; /* Para garantir que o ícone seja exibido inline */
+  }
+  
+  

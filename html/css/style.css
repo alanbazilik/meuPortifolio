@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4888e9;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+h1
+{
+ color: white;   
+}
+h2 {
+    margin-bottom: 20px;
+}
+
+.project {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+.project p {
+    margin-bottom: 20px;
+}
+
+.project a {
+    background-color: #007bff;
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    transition: background-color 0.3s; /* Adiciona uma transição suave */
+}
+
+.project a:hover {
+    background-color: #0056b3;
+}
+/* Estilos para o menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    transition: box-shadow 0.3s; /* Adiciona uma transição suave para o efeito de sombra */
+}
+
+/* Aplicar sombra quando o mouse passa sobre um item do menu */
+nav li:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra quando o mouse passa sobre o item do menu */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-buttons {
+    margin-bottom: 20px;
+}
+
+.contact-button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+}
+
+.footer-links a {
+    color: #fff; /* Cor do texto padrão */
+    text-decoration: none; /* Remove a decoração de texto padrão (sublinhado) */
+    margin: 0 10px; /* Margem horizontal de 10px em cada lado dos links */
+}
+
+.footer-links a:hover {
+    color: #ff9900; /* Altera a cor do texto ao passar o mouse (por exemplo, para laranja) */
+}
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease; /* Adiciona uma transição suave para a mudança de cor */
+}
+
+.footer-links a:hover {
+    color: #ff9900;
+}
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: Arial, sans-serif; /* Altera a fonte do texto */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+}
+
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+/* Estilos para telas menores (por exemplo, dispositivos móveis) */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    nav ul {
+        text-align: left;
+    }
+
+    #sobreMim {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #minhafoto {
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
+    }
+
+    .contact-button {
+        margin: 5px 0;
+        padding: 8px 16px;
+    }
+}
+
+/* Estilos para telas médias (por exemplo, tablets) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    header {
+        padding: 10px;
+    }
+
+
+
+    #sobreMim {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #minhafoto {
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
+    }
+
+    .contact-button {
+        margin: 5px 0;
+        padding: 8px 16px;
+    }
+}
+
+/* Estilos para telas maiores (por exemplo, desktops) */
+@media screen and (min-width: 1025px) {
+    header {
+        padding: 10px;
+    }
+
+
+
+    #sobreMim {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #minhafoto {
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
+    }
+
+    .contact-button {
+        margin: 5px 0;
+        padding: 8px 16px;
+    }
+}
+
+/* Estilos para quando a tela está em modo paisagem (horizontal) */
+@media screen and (max-width: 768px) and (orientation: landscape) {
+    header {
+        padding: 10px;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    nav ul {
+        text-align: left;
+    }
+
+    #sobreMim {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #minhafoto {
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
+    }
+
+    .contact-button {
+        margin: 5px 0;
+        padding: 8px 16px;
+    }
+}
